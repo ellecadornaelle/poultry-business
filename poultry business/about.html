@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Cluck & Co.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/chicken-icon.svg" alt="Cluck & Co. logo">
+        <span>Cluck &amp; Co.</span>
+      </div>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Shop Chickens</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menuToggle">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>About Cluck &amp; Co.</h2>
+          <p>Cluck &amp; Co. is a family-run poultry farm dedicated to raising healthy, happy chickens. We believe that quality starts with proper care, clean coops, and good nutrition.</p>
+          <p>Our chickens are raised in a stress-free environment with plenty of space to roam. Each bird is vaccinated, health-checked, and ready to join your flock or supply your table.</p>
+          <p>We specialize in broiler and layer chickens of various breeds and ages, sold at fair prices in Philippine pesos. Whether you're a backyard hobbyist or a commercial buyer, we're here to help.</p>
+        </div>
+        <div class="about-image">
+          <img src="5month.jpg" alt="Our poultry farm with healthy chickens">
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat-card">
+          <div class="num">500+</div>
+          <div class="lbl">Chickens Raised</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">10+</div>
+          <div class="lbl">Breeds Available</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">100%</div>
+          <div class="lbl">Vaccinated Birds</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Cluck &amp; Co.</h3>
+          <p>Providing healthy, farm-fresh chickens raised with care for families and businesses.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop Chickens</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">4 Months Old</a></li>
+            <li><a href="#">5 Months Old</a></li>
+            <li><a href="#">6 Months &amp; Older</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">Visit our Contact page</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Cluck &amp; Co. Poultry Farm. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

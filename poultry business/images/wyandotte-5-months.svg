@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f3e5f5"/>
+  <circle cx="200" cy="172" r="64" fill="#eceff1" stroke="#4a148c" stroke-width="4"/>
+  <ellipse cx="200" cy="242" rx="59" ry="49" fill="#f5f5f5" stroke="#cfd8dc" stroke-width="3"/>
+  <path d="M147 242 Q172 292 200 272 Q228 292 253 242" fill="none" stroke="#4a148c" stroke-width="5" stroke-linecap="round"/>
+  <text x="200" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#666">Wyandotte - 5 months</text>
+  <text x="200" y="380" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#999">Unique placeholder image</text>
+</svg>
